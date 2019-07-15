@@ -1,0 +1,92 @@
+
+/* mise en page index */
+
+
+/*  backgrount index  */
+header{
+    background-image:url(images/iStock_000052814088_Large-e1462447825290.jpg);
+    background-position: center center; 
+    height: 1080;  
+}
+body {
+    
+    background-color: #ffffff; 
+}
+
+#titrage{
+  
+    width: 400px;
+    background-color: #ffffff;
+}
+
+#navBarre{
+
+    background-color: rgb(255, 255, 255); 
+}
+
+/* Police titrage   */
+
+
+
+p{
+    color: black;
+    font-size: 22px;
+}
+
+
+h1{
+    font-size: 50px;
+    color: rgb(2, 2, 2);
+}
+
+
+h3{
+
+    font-size: 35px;
+    color: black;
+}
+
+
+
+/*FOOTER*/
+
+#footer {
+
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+}
+
+#contact{
+    background-color: #919191;
+    width: 1920px;
+    height: 300px;
+}
+
+ /*carousel*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 70px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 70px;
+    color: red;
+}
+
+
+.carousel-indicators .active {
+    background-color: #ff0000;
+}
