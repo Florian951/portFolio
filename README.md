@@ -50,13 +50,17 @@ une zone contact avec un GIT en partage pour montrer la technique et les dessous
 
 ##### Recruteur :
 
- Utilisation simple pour les chasseurs de tête pas de deuxieme page.
+Il faut partir du principe qu'une RH ou un chasseur de tête ne connaissent rien à la prog.
+
+Utilisation simple pour les chasseurs de tête pas de deuxieme page et les languages avec des images simple pour les competences.
 
 
 
 ##### client :
 
-Jolie utilisation epuree pour qu'un client puisse imaginer son site dans la même genetique.
+Il est con donc:
+
+Jolie utilisation epure pour qu'un client puisse imaginer son site avec les fonctionnalités presente.
 
 
 

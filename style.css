@@ -1,6 +1,7 @@
 
-/* mise en page index */
-
+/* mise en page HEADER */
+nav a{text-decoration:none;padding:1rem}
+nav span{background:#444;height:.1em;display:block;position:relative;width:60px;left:0}
 
 /*  backgrount index  */
 header{
