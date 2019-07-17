@@ -5,7 +5,7 @@ nav span{background:#444;height:.1em;display:block;position:relative;width:60px;
 
 /*  backgrount index  */
 header{
-    background-image:url(images/iStock_000052814088_Large-e1462447825290.jpg);
+    background-image:url(../images/iStock_000052814088_Large-e1462447825290.jpg);
     background-position: center center; 
     height: 1080;  
 }
@@ -27,8 +27,6 @@ body {
 
 /* Police titrage   */
 
-
-
 p{
     color: black;
     font-size: 22px;
@@ -46,8 +44,6 @@ h3{
     font-size: 35px;
     color: black;
 }
-
-
 
 /*FOOTER*/
 
