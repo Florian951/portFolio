@@ -29,8 +29,8 @@ body {
 /* Police titrage   */
 
 p{
-    color: black;
     font-size: 22px;
+    color: black;  
 }
 
 
@@ -55,7 +55,7 @@ h3{
 }
 
 #contact{
-    background-color: #919191;
+    background-color: #adadad;
     width: 1920px;
     height: 300px;
 }
