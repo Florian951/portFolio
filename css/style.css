@@ -28,6 +28,12 @@ body {
 
 /* Police titrage   */
 
+.nav-link{
+    font-size: 20px;
+
+
+}
+
 p{
     font-size: 22px;
     color: black;  
@@ -60,4 +66,13 @@ h3{
     height: 300px;
 }
 
+/* test animation*/
+
+.nav-link 
+{
+    text-decoration:underline;
+    font-size: 25px;
+    
+     
+}
  

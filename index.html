@@ -9,7 +9,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
- 
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -20,20 +20,16 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/icone.png" />
-<!--SCRIPT/styleeeeee ??-->
-<style>
+  <!--styleeeeee ??-->
+  <style>
     html {
       scroll-behavior: smooth;
     }
-    #navbarSupportedContent {
-      
-    }
-    #footer {
-      
-    }
 
-  
-    </style>
+    #navbarSupportedContent {}
+
+    #footer {}
+  </style>
 
 </head>
 
@@ -50,24 +46,24 @@
             alt="Rorscharch" />
         </a>
         <!--bouton responsive-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavbarBurger""
+          aria-controls=" navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!--Nav menu-->
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="menuNavbarBurger">
           <ul class="navbar-nav col-md-12">
-            <li class="nav-item active col-md-3">
-              <a class="nav-link" href="#">Mon CV<span class="sr-only">(current)</span></a>
+            <li class="nav-item col-md-3">
+              <a class="nav-link " href="#monCv">Mes motivations<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active col-md-3">
-              <a class="nav-link" href="#">Mes competences</a>
+            <li class="nav-item  col-md-3">
+              <a class="nav-link " href="#competencesProg">Mes compétences</a>
             </li>
-            <li class="nav-item active col-md-3">
-              <a class="nav-link" href="#">Mes motivations</a>
+            <li class="nav-item  col-md-3">
+              <a class="nav-link" href="#monCv">Mon CV</a>
             </li>
-            <li class="nav-item active col-md-3">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item  col-md-3">
+              <a class="nav-link " href="#footer">Me contacter</a>
             </li>
           </ul>
         </div>
@@ -89,18 +85,18 @@
 
           <p class="text-center">
             <a href="#">
-              <svg class="bd-placeholder-img rounded-circle" width="180" height="180" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
-                  dy=".3em">140x140</text>
-              </svg>
+              <img src="images/florianProfile.jpg" class="bd-placeholder-img rounded-circle " width="25%" height="45%"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 200x200">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              </img>
             </a>
             <br>
             <b>Bonjour moi c'est florian!</b>
+            <br>je suis à la recherche d'un stage
             <br>
-            <br> J'adore l'informatique,
-            <br>façonner et faire évoluer des projets de toutes sortes.</p>
+            <br> J'adore la programmation,
+            <br>façonner et faire évoluer des projets de toutes sortes!</p>
 
 
           <a class="btn btn-primary" style="border-radius: 0%; border: 1px solid rgb(255, 255, 255) !important"
@@ -114,13 +110,13 @@
 
 
   <!--Espace-->
-  <div id="#" class="mx-auto" style="height:100px;">
+  <div id="competencesProg" class="mx-auto" style="height:100px;">
   </div>
+
   <!--Mes languages-->
   <div class="container-fluid">
     <div class="row">
       <div class="text-center col-md-12 ">
-        <hr />
         <h1>Mes languages maitrisé</h1>
       </div>
     </div>
@@ -138,13 +134,9 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;" src="images/HTML5.png"
             data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">HTML 5 Structure.</p>
+            <p class="card-text text-center">HTML 5 Structure.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-success" href="https://www.w3.org/html/" target="_blank">Plus de
-                  détails</a>
-              </div>
-              <small class="text-muted">work in progress</small>
+
             </div>
           </div>
         </div>
@@ -156,13 +148,9 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;" src="images/bootstrap.png"
             data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">BOOTSTRAP site responsive.</p>
+            <p class="card-text text-center">BOOTSTRAP site responsive.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-success" href="https://getbootstrap.com/" target="_blank">Plus de
-                  détails</a>
-              </div>
-              <small class="text-muted">work in progress</small>
+
             </div>
           </div>
         </div>
@@ -174,13 +162,13 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;" src="images/css3.png"
             data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">CSS 3 Mise en forme.</p>
+            <p class="card-text text-center">CSS 3 Mise en forme.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
+              <!--<div class="btn-group">
                 <a type="button" class="btn btn-success" href="https://www.w3.org/Style/CSS/" target="_blank">Plus de
                   détails</a>
               </div>
-              <small class="text-muted">work in progress</small>
+              <small class="text-muted">work in progress</small>-->
             </div>
           </div>
         </div>
@@ -199,13 +187,9 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;" src="images/PHP.png"
             data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">PHP.</p>
+            <p class="card-text text-center">PHP.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-success" href="https://www.w3.org/html/" target="_blank">Plus de
-                  détails</a>
-              </div>
-              <small class="text-muted">work in progress</small>
+
             </div>
           </div>
         </div>
@@ -217,13 +201,9 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;" src="images/js.png"
             data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">JavaScript.</p>
+            <p class="card-text text-center">JavaScript.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-success" href="https://getbootstrap.com/" target="_blank">Plus de
-                  détails</a>
-              </div>
-              <small class="text-muted">work in progress</small>
+
             </div>
           </div>
         </div>
@@ -235,13 +215,9 @@
             alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;"
             src="images/Azure-SQL-Database-Logo.png" data-holder-rendered="true">
           <div class="card-body">
-            <p class="card-text">Gestion de base de données.</p>
+            <p class="card-text text-center">Gestion de base de données.</p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-success" href="https://www.w3.org/Style/CSS/" target="_blank">Plus de
-                  détails</a>
-              </div>
-              <small class="text-muted">work in progress</small>
+
             </div>
           </div>
         </div>
@@ -252,8 +228,18 @@
   <!--Espace-->
   <div class="mx-auto" style="height:100px;">
   </div>
+  <!--CV PDF-->
+  <div id="monCv" class=" container">
+    <div class="row">
+      <div class="text-center col-md-12 ">
+        <h1>Mon CV</h1>
+        <embed src="pdfDoc/cvFlorian.pdf" width="600px" height="900px" type="application/pdf" />
+      </div>
+    </div>
+  </div>
 
-  <!--carte motivation-->
+
+  <!--carte motivation
 
   <div id="motivation">
     <div class="row">
@@ -262,6 +248,8 @@
       </div>
     </div>
   </div>
+
+  -->
   <!--footer-->
 
   <footer>
